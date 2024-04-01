@@ -1,0 +1,29 @@
+@import "base.css";
+
+#hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+}
+
+#hobbies div {
+    border: 1px solid #f00;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f00;
+    cursor: pointer;
+}
+
+.hobby-selected {
+    background-color:#6699CC !important;
+    border: 1px solid #6699CC !important;
+}
+
+.hobby-not-selected {
+    background-color: #f00;
+    border: 1px solid #f00;
+}
